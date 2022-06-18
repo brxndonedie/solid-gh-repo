@@ -4,7 +4,7 @@ import Nav from './components/Nav'
 const Home = lazy(() => import('./pages/Home'))
 const SavedRepos = lazy(() => import('./pages/SavedRepos'))
 
-const [username, setUserName] = createSignal('brandonedie')
+const [username, setUserName] = createSignal('brxndonedie')
 const [repos, setRepos] = createSignal([])
 
 createEffect(async () => {
